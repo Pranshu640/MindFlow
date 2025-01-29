@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindMelody</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Mindflow.png" alt="Mindflow Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#services" class="services-btn">Services</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="Mindflow.png" alt="Mindflow Logo">
+                </div>
+                <button class="services-btn">Services</button>
+            </div>
+            <div class="hero-content">
+                <div class="thought-bubbles">
+                    <div class="thought-bubble healthy">
+                        <div class="bubble-tail">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        HEALTHY LIFE
+                    </div>
+                    <div class="thought-bubble anxiety">
+                        <div class="bubble-tail">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        ANXIETY FREE
+                    </div>
+                    <div class="thought-bubble happy">
+                        <div class="bubble-tail">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        HAPPY MIND
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="union.png" alt="Mental Wellness Journey">
+                </div>
+
+                <div class="stair-text">
+                    <div class="first-stair">THE JOURNEY TO</div>
+                    <div class="second-stair">MENTAL WELLNESS</div>
+                </div>
+
+                <div class="cta-button">
+                    <form action="http://localhost:5173/assessment" method="get" target="_blank">
+                        <button type="submit">
+                            <span>TAKE A MENTAL HEALTH TEST</span>
+                            <span class="arrow">→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="service-grid">
+                <div class="service-card music-card wide">
+                    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3" alt="Music Generator" class="service-bg">
+                    <div class="card-content">
+                        <h3>AI Music<br>Generator</h3>
+                        <form action="http://localhost:5173/music" method="get" target="_blank">
+                            <button type="submit" class="music-button">Generate Now</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3" alt="Health Test" class="service-bg">
+                    <div class="card-content">
+                        <h3>Take Mental<br>Health Test</h3>
+                        <form action="http://localhost:5173/assessment" method="get" target="_blank">
+                            <button type="submit" class="service-button">TAKE TEST</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&w=1200&fit=crop&q=80&h=800" alt="Track Activities" class="service-bg">
+                    <div class="card-content">
+                        <h3>Track Your Daily<br>Activities</h3>
+                        <form action="http://localhost:5173/dashboard" method="get" target="_blank">
+                            <button type="submit" class="service-button">VIEW STATS</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3" alt="Therapist Consultation" class="service-bg">
+                    <div class="card-content">
+                        <h3>Consult with Best<br>Therapist</h3>
+                        <form action="http://localhost:5173/consult" method="get" target="_blank">
+                            <button type="submit" class="service-button">CONSULT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="service-card chat-card">
+                    <img src="https://images.unsplash.com/photo-1527430253228-e93688616381?ixlib=rb-4.0.3" alt="Chat with ChatBot" class="chat-bg">
+                    <div class="card-content">
+                        <h3>Chat with our<br>ChatBot</h3>
+                        <form action="http://localhost:5173/chat" method="get" target="_blank">
+                            <button type="submit" class="chat-button">Chat Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solutions">
+            <div class="section-title">
+                <h2>SOLUTIONS WE PROVIDE</h2>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card music">
+                    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3" alt="AI Music Generation" class="solution-bg">
+                    <div class="solution-content">
+                        <h3>AI Music Generation</h3>
+                        <p>Personalized music therapy to help reduce stress and anxiety through AI-generated calming melodies.</p>
+                        <form action="http://localhost:5173/music" method="get" target="_blank">
+                            <button type="submit" class="solution-button">GENERATE MUSIC</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="solution-card chatbot">
+                    <img src="https://images.unsplash.com/photo-1527430253228-e93688616381?ixlib=rb-4.0.3" alt="AI Chat Support" class="solution-bg">
+                    <div class="solution-content">
+                        <h3>AI Mental Health Assistant</h3>
+                        <p>24/7 supportive chat companion offering guidance, coping strategies, and emotional support.</p>
+                        <form action="http://localhost:5173/chat" method="get" target="_blank">
+                            <button type="submit" class="solution-button">START CHAT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="section-title">
+                <h2>HOW IT WORKS</h2>
+            </div>
+            
+            <div class="process-container">
+                <div class="process-content">
+                    <div class="process-image-container">
+                        <img src="frame 1.png" alt="Hands holding heart" class="process-bg">
+                        <div class="wave-overlay"></div>
+                    </div>
+                    
+                    <div class="process-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-info">
+                                <h3>User Details</h3>
+                                <p>It allow us to personalize results and recommendations based on individual responses, fostering a more tailored and effective experience.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number accent">2</div>
+                            <div class="step-info">
+                                <h3>Primary Assessment</h3>
+                                <p>Primary assessment for our mental health quiz offers a quick and simple evaluation to help individuals gain insight into their current mental well-being.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-info">
+                                <h3>Tracking & Report</h3>
+                                <p>With personalized insights and actionable recommendations, users can gain a deeper understanding of their mental well-being and take proactive steps towards self-improvement.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="relax-section">
+            <h2>READY TO RELAX AND LET<br>YOUR <img src="Mindflow.png" alt="Mindflow" class="inline-logo"></h2>
+            <p>MindFlow is a user-friendly mental health website designed to provide support, resources, and guidance to individuals struggling with mental health challenges.</p>
+            <div class="hashtag">#STAYHEALTHY</div>
+            <form action="http://localhost:5173/music" method="get" target="_blank">
+                <button type="submit" class="generate-music-btn">
+                    GENERATE MUSIC
+                    <span class="arrow">↗</span>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="MindflowW.png" alt="Mindflow Logo">
+            </div>
+            <p>Your Path to Mental Wellness</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#support">Support</a>
+            </div>
+            <button class="back-to-top">BACK TO TOP</button>
+        </div>
+    </footer>
+
+    <div class="music-player" id="musicPlayer">
+        <h2>Relax, Listen to Calm Music</h2>
+        <p>Your result will be shared with you soon. Check your Email!</p>
+        <p>Click on the MINDFLOW to go to homepage</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
