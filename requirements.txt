@@ -1,0 +1,7 @@
+flask
+flask-cors
+torch
+torchaudio
+torchvision
+transformers
+soundfile
